@@ -1,0 +1,189 @@
+
+.tab-container .tabs-nav {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.tab-container-locations {
+    background-color: #fff;
+    border-color: #e5e5e5;
+    float: left;
+    width: 100%;
+        margin: 20px 0;
+}
+
+
+.tab-container-locations .tabs-nav {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.tab-container-locations .wrap__cta__tab-location1, 
+.tab-container-locations .wrap__cta__tab-location2, 
+.tab-container-locations .wrap__cta__tab-location3, 
+.tab-container-locations .wrap__cta__tab-location4, 
+.tab-container-locations .wrap__cta__tab-location5 {
+    width: 20%;
+    position: absolute;
+    top: 0;
+}
+
+.tab-container-locations .wrap__cta__tab-location1 {
+    left: 0;
+}
+
+.tab-container-locations .wrap__cta__tab-location2 {
+    left: 20%;
+}
+
+.tab-container-locations .wrap__cta__tab-location3 {
+    left: 40%;
+}
+
+.tab-container-locations .wrap__cta__tab-location4 {
+    left: 60%;
+}
+
+.tab-container-locations .wrap__cta__tab-location5 {
+    left: 80%;
+}
+
+
+.tab-container-locations .tabs-nav .active .cta__link {
+        border-bottom: 3px solid #e5e5e5;
+                border-top: 3px solid #e5e5e5;
+    text-decoration: none !important;
+}
+
+.tab-container-locations .wrap__cta__tab-location1 .cta__link,
+.tab-container-locations .wrap__cta__tab-location2 .cta__link,
+.tab-container-locations .wrap__cta__tab-location3 .cta__link,
+.tab-container-locations .wrap__cta__tab-location4 .cta__link,
+.tab-container-locations .wrap__cta__tab-location5 .cta__link{
+    font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none !important;
+            font-weight: 400;
+    line-height: 1.45;
+    position: relative;
+    display: block;
+}
+
+.tab-container-locations .wrap__cta__tab-location1 .cta__button,
+.tab-container-locations .wrap__cta__tab-location2 .cta__button,
+.tab-container-locations .wrap__cta__tab-location3 .cta__button,
+.tab-container-locations .wrap__cta__tab-location4 .cta__button,
+.tab-container-locations .wrap__cta__tab-location5 .cta__button{
+    font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none !important;
+            font-weight: 400;
+    line-height: 1.45;
+    position: relative;
+    display: block;
+}
+
+.tab-container-locations .tab-wrapper {
+    margin: 75px 0 50px;
+        position: relative;
+}
+
+.wrap__tab-location1, .wrap__tab-location2, .wrap__tab-location3, .wrap__tab-location4, .wrap__tab-location5 {
+    float: left;
+    width: 100%;
+}
+
+.tab-container-locations .hide {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    visibility: hidden;
+}
+
+.tab-container-locations .active.tab {
+    border-bottom: none !important;
+    top: 1px;
+}
+
+.tab-container-locations .cta {
+    padding: 10px;
+}
+
+
+.tab-container-locations .cta__link, .tab-container-locations .cta__button {
+        background-color: #a6ce39;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+}
+
+.tab-container-locations .cta__link:hover, .tab-container-locations .cta__button:hover {
+    text-decoration: none;
+    background-color: #6d6d6d;
+    color: #fff;
+}
+
+.tab-container-locations .active.tab .cta:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 45%;
+    height: 0;
+    width: 0;
+    border-left: 19px solid transparent;
+    border-top: 18px solid #485e88;
+    border-right: 19px solid transparent;
+    z-index: 10;
+    margin-top: -16px;
+}
+
+.tab-container-locations .active.tab .cta__button {
+    text-decoration: none;
+    background-color: #485e88;
+    color: #fff;
+}
+
+
+.tab-container-locations iframe {
+    max-width: 100%;
+    top: -44px;
+    position: relative;
+    height: 312px;
+ width: 100%;
+}
+
+.tab-container-locations .tabs-panel-content {
+    border: 12px Solid #485e88;
+    padding: 5px;
+    margin: 10px;
+}
+
+@media (max-width: 519px){
+.tab-container-locations .wrap__cta__tab-location1, 
+.tab-container-locations .wrap__cta__tab-location2, 
+.tab-container-locations .wrap__cta__tab-location3, 
+.tab-container-locations .wrap__cta__tab-location4, 
+.tab-container-locations .wrap__cta__tab-location5  {
+    width: 100%;
+    position: relative;
+    left: 0!important;
+    top: 0;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    text-align: center;
+}
+.tab-container-locations .tab-wrapper {
+    margin: 15px 0 50px;
+    padding: 0 15px;
+}
+.tab-container-locations .tabs-panel-content {
+    border: 5px Solid #485e88;
+    padding: 0;
+    margin: 0;
+}
+}
